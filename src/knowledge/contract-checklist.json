@@ -1,0 +1,235 @@
+{
+  "title": "租赁合同必备条款清单",
+  "description": "基于民法典和商品房屋租赁管理办法整理的租赁合同核查清单",
+  "categories": [
+    {
+      "name": "基本信息",
+      "items": [
+        {
+          "id": "check-001",
+          "name": "出租人身份信息",
+          "description": "合同应明确出租人姓名/名称、身份证号/统一社会信用代码",
+          "importance": "critical",
+          "missingRisk": "无法确认出租人身份，可能遭遇二房东诈骗或假房东骗取押金",
+          "keywords": ["出租人", "身份证", "房东", "产权人"]
+        },
+        {
+          "id": "check-002",
+          "name": "承租人身份信息",
+          "description": "合同应明确承租人姓名、身份证号、联系方式",
+          "importance": "critical",
+          "missingRisk": "发生纠纷时无法明确合同主体，影响维权",
+          "keywords": ["承租人", "身份证", "租客", "联系方式"]
+        },
+        {
+          "id": "check-003",
+          "name": "产权证明核验",
+          "description": "应核验房屋产权证（不动产权证书），确认出租人是否为产权人或有合法出租权",
+          "importance": "critical",
+          "missingRisk": "可能租到无权出租的房屋，面临被真正产权人要求搬离的风险",
+          "keywords": ["产权证", "不动产权", "房产证", "产权人"]
+        }
+      ]
+    },
+    {
+      "name": "房屋信息",
+      "items": [
+        {
+          "id": "check-004",
+          "name": "房屋坐落地址",
+          "description": "合同应明确房屋的详细地址，包括小区名称、楼栋号、单元号、房间号",
+          "importance": "critical",
+          "missingRisk": "地址不明确可能导致合同标的不清，纠纷时无法确定租赁对象",
+          "keywords": ["地址", "坐落", "房间号", "楼栋"]
+        },
+        {
+          "id": "check-005",
+          "name": "房屋面积与结构",
+          "description": "合同应注明房屋建筑面积或使用面积、户型结构（几室几厅）",
+          "importance": "important",
+          "missingRisk": "面积不明确可能影响租金合理性判断，也可能存在违规隔断",
+          "keywords": ["面积", "结构", "户型", "平方米"]
+        },
+        {
+          "id": "check-006",
+          "name": "附属设施与家具家电清单",
+          "description": "合同应附有详细的家具、家电及设施清单，注明品牌、型号、数量及新旧程度",
+          "importance": "important",
+          "missingRisk": "退租时可能因物品状况产生争议，无法确认入住时的原始状态",
+          "keywords": ["家具", "家电", "清单", "设施", "物品"]
+        }
+      ]
+    },
+    {
+      "name": "租金与押金",
+      "items": [
+        {
+          "id": "check-007",
+          "name": "租金金额与支付方式",
+          "description": "合同应明确月租金金额（大小写）、支付方式（转账/现金）、支付周期（月付/季付/年付）、每期支付日期",
+          "importance": "critical",
+          "missingRisk": "租金约定不清可能导致支付纠纷，也可能被要求不合理的支付方式",
+          "keywords": ["租金", "月租", "支付", "转账", "付款"]
+        },
+        {
+          "id": "check-008",
+          "name": "押金金额与退还条件",
+          "description": "合同应明确押金金额、退还条件、退还时间（建议退租交接后7-15日内）、不予退还的具体情形",
+          "importance": "critical",
+          "missingRisk": "押金条款不明确是最常见的退租纠纷原因，可能导致押金无法退还",
+          "keywords": ["押金", "保证金", "退还", "扣除"]
+        },
+        {
+          "id": "check-009",
+          "name": "租金调整机制",
+          "description": "合同应约定续租时租金调整方式及涨幅上限",
+          "importance": "important",
+          "missingRisk": "无涨幅限制可能面临房东大幅涨租，被迫搬离",
+          "keywords": ["涨租", "调整", "涨幅", "续租租金"]
+        }
+      ]
+    },
+    {
+      "name": "租赁期限",
+      "items": [
+        {
+          "id": "check-010",
+          "name": "起止日期",
+          "description": "合同应明确租赁起始日期和终止日期，精确到年月日",
+          "importance": "critical",
+          "missingRisk": "期限不明确可能被视为不定期租赁，任何一方可随时解除",
+          "keywords": ["起始日期", "终止日期", "期限", "起止"]
+        },
+        {
+          "id": "check-011",
+          "name": "续租条款",
+          "description": "合同应约定租期届满后的续租方式、优先承租权及提前通知期限",
+          "importance": "important",
+          "missingRisk": "未约定续租条款可能导致到期后权益不确定",
+          "keywords": ["续租", "续约", "优先", "通知期"]
+        }
+      ]
+    },
+    {
+      "name": "房屋使用",
+      "items": [
+        {
+          "id": "check-012",
+          "name": "使用用途",
+          "description": "合同应明确房屋用途（居住/办公/商用），以及是否允许转租、合租、养宠物等",
+          "importance": "important",
+          "missingRisk": "用途不明确可能因改变用途被解除合同，或擅自行为构成违约",
+          "keywords": ["用途", "居住", "办公", "转租", "合租", "宠物"]
+        },
+        {
+          "id": "check-013",
+          "name": "装修改造约定",
+          "description": "合同应明确是否允许装修改造、改造范围、退租时是否需恢复原状及费用承担",
+          "importance": "important",
+          "missingRisk": "未约定装修条款可能导致退租时被要求恢复原状并承担费用",
+          "keywords": ["装修", "改造", "恢复原状", "钉子", "粉刷"]
+        }
+      ]
+    },
+    {
+      "name": "维修责任",
+      "items": [
+        {
+          "id": "check-014",
+          "name": "维修责任划分",
+          "description": "合同应明确区分房东维修范围（房屋主体、设备老化）和租客维修范围（人为损坏），约定维修响应时间",
+          "importance": "critical",
+          "missingRisk": "维修责任不清是常见纠纷源，可能导致租客承担不合理的维修费用",
+          "keywords": ["维修", "修缮", "责任", "老化", "损坏"]
+        },
+        {
+          "id": "check-015",
+          "name": "紧急维修条款",
+          "description": "合同应约定紧急情况（如水管爆裂、漏电）的处理方式和费用承担",
+          "importance": "important",
+          "missingRisk": "紧急情况无约定可能延误处理，造成更大损失",
+          "keywords": ["紧急", "水管", "漏水", "漏电", "抢修"]
+        }
+      ]
+    },
+    {
+      "name": "合同解除",
+      "items": [
+        {
+          "id": "check-016",
+          "name": "提前解约条件",
+          "description": "合同应明确双方提前解约的条件、提前通知期限及违约金标准",
+          "importance": "critical",
+          "missingRisk": "未约定提前解约条款可能导致一方被动，或承担过高违约金",
+          "keywords": ["提前解约", "提前退租", "解除合同", "通知期"]
+        },
+        {
+          "id": "check-017",
+          "name": "法定解除情形",
+          "description": "合同应列明法定解除情形：房屋安全隐患、严重影响使用、房东卖房等情况下的处理方式",
+          "importance": "important",
+          "missingRisk": "不了解法定解除权可能在有权解约时仍承担不必要的违约金",
+          "keywords": ["法定解除", "安全隐患", "不可抗力"]
+        }
+      ]
+    },
+    {
+      "name": "违约责任",
+      "items": [
+        {
+          "id": "check-018",
+          "name": "违约金对等条款",
+          "description": "合同应约定双方对等的违约金标准：房东违约和租客违约应承担相同标准的赔偿",
+          "importance": "critical",
+          "missingRisk": "违约金不对等严重损害一方利益，如只约定租客违约赔偿而房东违约无需赔偿",
+          "keywords": ["违约金", "赔偿", "对等", "双方"]
+        },
+        {
+          "id": "check-019",
+          "name": "迟延支付违约金",
+          "description": "合同应约定租金迟延支付的违约金计算方式，日违约金率应合理（建议不超过日租金的千分之三）",
+          "importance": "important",
+          "missingRisk": "迟延违约金过高可能导致短期迟交就面临巨额罚款",
+          "keywords": ["迟延", "逾期", "滞纳金", "日违约金"]
+        }
+      ]
+    },
+    {
+      "name": "其他条款",
+      "items": [
+        {
+          "id": "check-020",
+          "name": "水电燃气费用",
+          "description": "合同应明确水费、电费、燃气费的计费标准（民用/商用）、承担方式及抄表基数",
+          "importance": "important",
+          "missingRisk": "未约定可能被收取高于市政标准的水电费，或因抄表基数不清产生纠纷",
+          "keywords": ["水费", "电费", "燃气", "抄表", "基数"]
+        },
+        {
+          "id": "check-021",
+          "name": "物业费与其他费用",
+          "description": "合同应明确物业费、暖气费、网络费、停车费等由谁承担",
+          "importance": "important",
+          "missingRisk": "费用归属不明确可能导致额外支出",
+          "keywords": ["物业费", "暖气费", "网络费", "停车费"]
+        },
+        {
+          "id": "check-022",
+          "name": "退租交接流程",
+          "description": "合同应约定退租时的交接流程：验收方式、钥匙归还、水电结算、押金退还时间表",
+          "importance": "important",
+          "missingRisk": "退租流程不明确容易产生扯皮，影响押金退还",
+          "keywords": ["退租", "交接", "验收", "钥匙", "结算"]
+        },
+        {
+          "id": "check-023",
+          "name": "争议解决方式",
+          "description": "合同应约定发生纠纷时的解决方式：协商、调解、仲裁或诉讼，以及管辖法院/仲裁机构",
+          "importance": "important",
+          "missingRisk": "未约定管辖可能导致异地诉讼，增加维权成本",
+          "keywords": ["争议", "纠纷", "仲裁", "诉讼", "管辖"]
+        }
+      ]
+    }
+  ]
+}
