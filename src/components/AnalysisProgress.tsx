@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import type { AnalysisStep } from '@/lib/types';
 
 interface AnalysisProgressProps {
@@ -14,11 +15,26 @@ const steps = [
 
 export default function AnalysisProgress({ currentStep }: AnalysisProgressProps) {
   const currentIndex = steps.findIndex(s => s.key === currentStep);
+  const [elapsed, setElapsed] = useState(0);
+
+  // 计时器：让用户知道等了多久
+  useEffect(() => {
+    const timer = setInterval(() => setElapsed(e => e + 1), 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
-      <p className="text-center text-sm font-medium text-slate-700 mb-6">
+      <p className="text-center text-sm font-medium text-slate-700 mb-2">
         正在分析您的合同，请稍候...
+      </p>
+      <p className="text-center text-xs text-slate-400 mb-6">
+        {elapsed < 15
+          ? 'AI 正在逐条审查合同条款...'
+          : elapsed < 30
+          ? '正在生成详细分析报告，马上就好...'
+          : '分析内容较多，请再耐心等待一下...'}
+        （已等待 {elapsed} 秒）
       </p>
       <div className="flex items-center justify-between">
         {steps.map((step, index) => {

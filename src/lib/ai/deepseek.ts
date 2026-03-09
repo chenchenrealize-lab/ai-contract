@@ -24,7 +24,7 @@ export async function analyzeContract(contractText: string): Promise<string> {
       { role: 'user', content: userPrompt },
     ],
     temperature: 0.1,        // 低温度 = 更稳定的输出（分析任务不需要创意）
-    max_tokens: 4096,         // 最大输出长度
+    max_tokens: 3000,         // 限制输出长度，加快响应速度
     response_format: { type: 'json_object' }, // 强制JSON输出
   });
 
