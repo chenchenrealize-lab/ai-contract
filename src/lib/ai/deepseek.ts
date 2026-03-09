@@ -6,7 +6,7 @@ import { buildRagContext } from '../rag/knowledge';
 // （DeepSeek的API接口和OpenAI格式一样，所以可以直接用OpenAI的SDK）
 const client = new OpenAI({
   apiKey: process.env.DEEPSEEK_API_KEY || '',
-  baseURL: 'https://api.deepseek.com',
+  baseURL: 'https://api.deepseek.com/v1',
 });
 
 export async function analyzeContract(contractText: string): Promise<string> {
